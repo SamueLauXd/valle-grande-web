@@ -5,7 +5,7 @@ export function Nav () {
     const isActive = ({isActive}) => {
         return isActive
         ? 'text-redish border-b border-redish border-solid text-redish'
-        : 'text-green-dark rounded-xl hover:text-white'
+        : 'text-green-dark rounded-xl hover:text-white transition-all duration-100'
     }
 
     return (

@@ -1,6 +1,7 @@
 import { Nav } from "../components/Nav"
 import { Link } from "react-router-dom"
 import { Button } from "@material-tailwind/react"
+import { Footer } from "../components/Footer"
 
 export function Landing () {
     return (
@@ -24,6 +25,8 @@ export function Landing () {
                     <img className="w-min" src="./src/assets/logo-grande.svg" alt="" />
                 </div>
             </section>
+
+            <Footer/>
         </div>
     )
 }

@@ -1,5 +1,6 @@
 import { Nav } from "../components/Nav"
 import { ProductsList } from "../components/ProductsList"
+import { Footer } from "../components/Footer"
 
 export function Products () {
     return (
@@ -13,6 +14,8 @@ export function Products () {
             <section className="flex justify-center px-14">
                 <ProductsList/>
             </section>
+
+            <Footer/>
         </div>
     )
 }

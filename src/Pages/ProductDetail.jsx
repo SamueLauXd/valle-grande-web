@@ -3,6 +3,7 @@ import { Nav } from "../components/Nav"
 import { Link } from "react-router-dom"
 import { Button } from "@material-tailwind/react"
 import { productos } from "../mocks/productos"
+import { Footer } from "../components/Footer"
 
 export function ProductDetail () {
 
@@ -36,6 +37,8 @@ export function ProductDetail () {
                     <p>Descripcion del {name}</p>
                 </div>
             </section>
+            
+            <Footer/>
         </div>
     )
 }

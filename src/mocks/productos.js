@@ -1,50 +1,50 @@
 export const productos = [
     {
         name: 'Cortado',
-        id : 1
+        id : crypto.randomUUID()
     },
     {
         name: 'Turron',
-        id: 2
+        id : crypto.randomUUID()
     },
     {
         name: 'Manjar Blanco',
-        id: 3
+        id : crypto.randomUUID()
     },
     {
         name: 'Mini de Uva',
-        id: 4
+        id : crypto.randomUUID()
     },
     {
         name: 'Mini de Café',
-        id: 5
+        id : crypto.randomUUID()
     },
     {
         name: 'Mini de Manjar',
-        id: 6
+        id : crypto.randomUUID()
     },
     {
         name: 'Mini de Cortado',
-        id: 7
+        id : crypto.randomUUID()
     },
     {
         name: 'Mini de Naranja',
-        id: 8
+        id : crypto.randomUUID()
     },
     {
         name: 'Mini de Piña',
-        id: 9
+        id : crypto.randomUUID()
     },
     {
         name: 'Mini de Limón',
-        id: 10
+        id : crypto.randomUUID()
     },
     {
         name: 'Mini de Maracuya',
-        id: 11
+        id : crypto.randomUUID()
     },
     {
         name: 'Gomas',
-        id: 12
+        id : crypto.randomUUID()
     },
 ]

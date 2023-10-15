@@ -1,15 +1,14 @@
-import { useParams } from "react-router-dom"
+import { useLocation } from "react-router-dom"
 import { Nav } from "../components/Nav"
 import { Link } from "react-router-dom"
 import { Button } from "@material-tailwind/react"
-import { productos } from "../mocks/productos"
 import { Footer } from "../components/Footer"
 
 export function ProductDetail () {
 
-    const {id} = useParams()
-    const productDetail = productos.find(product => product.id === id)
-    const {name} = productDetail
+    const { state } = useLocation()
+
+    const {name} = state
     
     return (
         <div>

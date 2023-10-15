@@ -12,7 +12,7 @@ export function Footer() {
               as="a"
               href="#"
               color="blue-gray"
-              className="font-normal transition-colors hover:text-green-dark focus:text-blue-500"
+              className="font-normal transition-colors hover:text-green-dark focus:text-green-dark"
             >
               <Link to="/about">
                 Acerca de nosotros
@@ -24,7 +24,7 @@ export function Footer() {
               as="a"
               href="#"
               color="blue-gray"
-              className="font-normal transition-colors hover:text-green-dark focus:text-blue-500"
+              className="font-normal transition-colors hover:text-green-dark focus:text-green-dark"
             >
               <Link to="/products">
                 Productos
@@ -36,7 +36,7 @@ export function Footer() {
               as="a"
               href="#"
               color="blue-gray"
-              className="font-normal transition-colors hover:text-green-dark focus:text-blue-500"
+              className="font-normal transition-colors hover:text-green-dark focus:text-green-dark"
             >
               <Link to="/contact">
                 Contáctanos
